@@ -727,4 +727,50 @@ textarea {
   }
 }
 
+/* Index enviado */
+
+.imagenbackground {
+  background-image: url(/imagenes/wallpapperenviado.jpg);
+  background-repeat: no-repeat;
+  width: auto;
+  height: 700px;
+  background-position: center;
+  background-position: left;
+}
+
+.contenedor{
+  display: flex;
+  flex-direction: column;
+}
+.contenedor__texto{
+  margin-top: 20rem !important;
+  background-color: #3a5f8e;
+  width: 600px;
+  margin: auto;
+  border-radius: 3rem;
+  padding: 1rem;
+}
+
+.titulo{
+  font-size: 4rem;
+  font-family: 'open sans';
+  text-align: center;
+}
+.parrafo{
+  font-size: 3.5rem;
+  text-align: center;
+  font-family: 'open sans';
+}
+
+.enlace {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+
+@media (min-width: 280px ) and (max-width: 610px ){
+  .contenedor__texto{
+    width: auto;
+  }
+}
 /*# sourceMappingURL=style.css.map */
