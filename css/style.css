@@ -771,6 +771,7 @@ textarea {
 @media (min-width: 280px ) and (max-width: 610px ){
   .contenedor__texto{
     width: auto;
+    height: auto;
   }
 }
 /*# sourceMappingURL=style.css.map */
